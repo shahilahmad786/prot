@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHAHIL AHMAD - Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="favicon-v2.webp">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/29941e6295.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" alt="" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Full Stack Web Developer, Python Expert</p>
+        <h1>Hi, I'm <span class="name"></span><br>Ahmad from India</h1>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------about--------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hi everyone welcome to my world, My name Shahil Ahmad I am fronted developer if u want to website so dm me
+            s go to the contact bar and send me a mail aur call
+
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Full StackWeb Developer</span><br>Front End and Back End Developer</li>
+              <li><span>App Developer</span><br>For Android and IOS</li>
+              <li><span>Java Developer</span><br>Building fast apps</li>
+              <li><span>Python Developer</span><br>Worked in technologies like Chat bot and Ai games</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Graphic Designer</span><br>Since 2018</li>
+              <li><span>Youtuber</span><br>14.5k Subscriber</li>
+              <li><span>Janta Electronics and Studio</span><br>5 years</li>
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Class LKG to 8th</span><br>2006-2017<br>*Little Rose English Medium School in Bhathat,Gorakhpur</li>
+              <li><span>High School</span><br>2019<br>*DON BOSCO SENIOR SECONDARY SCHOOL ,MAHADEOPURAM, KUNRAGHAT, GORAKHPUR</li>
+              <li><span>Intermidiate</span><br>2021<br>*Savitri Public School | Gulahariya Bazar, Gorakhpur (U.P)</li>
+              <li><span>B-Tech(CSE-AI)</span><br>2026<br>*Noida Institute of Engineering and Technology (NIET, Greater Noida) </li>
+              <li><span>M-Tech</span><br>under processing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------services--------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa fa-code"></i>
+          <h2>Website</h2>
+          <p>First you will click on the button then enter your name, email, messgae. In messgae you will enter which
+            kind of website you need single page or multi page and other informations about the website you need.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSchQoyRDtp2jlVSh0L7z2VbZrKKD_wRURvzhhcegzMGpxWjbw/viewform?usp=sf_link"
+            class="learnMore">Contact for Website</a>
+        </div>
+        <div>
+          <i class="fab fa-app-store"></i>
+          <h2>Web App</h2>
+          <p>First you will click on the button then enter your name, email, messgae. In messgae you will enter in which
+            language or Framework you need web app.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4TLJSCicLYWYjuAbcZsf3SE7kIYj9rXsYHMcvmrvVtkP3fw/viewform?usp=sf_link"
+            class="learnMore">Contact for Web App</a>
+        </div>
+        <div>
+          <i class="fa fa-p"></i>
+          <h2>EXE File Python</h2>
+          <p>First you will click on the button then enter your name, email, messgae. In messgae you will enter in which
+            language you need EXE.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSckqYFvSj_xfMrwsPGCqMgsqmZ_FByFdVWi909GWRf_Xivdrw/viewform?usp=sf_link"
+            class="learnMore">Contact for an EXE</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------portfolio--------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png" alt="">
+          <div class="layer">
+            <h3>Realtime Chat Bot</h3>
+            <p>It is a realtime chat bot on which you can interact with Artificial Intelligience.(In progress)</p>
+            <a href="
+https://replit.com/@ShahilAhmad/Chatbot">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" alt="">
+          <div class="layer">
+            <h3>A Music App</h3>
+            <p>This app is inspired by spotify which let you listen all the songs which are in the app for free.</p>
+            <a href="https://spotifyweb.shahilahmad.repl.co">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" alt="">
+          <div class="layer">
+            <h3>Online Landing Page </h3>
+            <p> A landing page with consistent branding is an extra way to improve brand awareness in marketing.</p>
+            <a href="https://software-landing-page-template-1.shahilahmad.repl.co/">
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a href="projects.html" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!-- ---------------contact--------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Conatct Me</h1>
+          <p><i class="fas fa-paper-plane"></i>shahilahmad81@gmail.com</p>
+          <p><i class="fas fa-phone-square"></i>+91 9076655434</p>
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com/people/Mohammad-Shahil-Ahmad-Shaikh/pfbid03SY97jWHRLM3VSgexGMuXZ63TZKCqh1oogBycYpE91Vjr88jJZuok1jH9EDsDVYtl/"><i
+                class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/shahil7861"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/mohammad_shahil_ahmad_shaikh/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/shahil-ahmad-63b1451ba/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/shahilahmad786"><i class="fa fa-github"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfwObyd-ltl9Z8-s-KJIDqthivZkuodWHfgypRxZdhCPS7oUA/viewform?usp=sf_link"><button
+              type="submit" class="btn btn2">Contact</button></a>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; Mohammad Shahil Ahmad || All rights reserved. <i class="fas fa-heart"></i></p>
+    </div>
+  </div>
+  <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxcyhX4WRk_FRMgShA8EzSlszPPBJDSPKk1NfPtFTOgVlIh77f4_pd7Tbqi5ps2C9ZVMQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = 'Message sent successfully'
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script> -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    let typed = new Typed(".name", {
+      strings: ["Shahil"],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true
+    })
+  </script>
+</body>
+<script src="script.js"></script>
+
+</html>
